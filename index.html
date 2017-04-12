@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    Wybierz z   :
+    <select class="wybor"  name="ex" id="ex">
+
+        <option value="PLN" name="PLN">PLN</option>
+        <option value="USD" name="USD">USD</option>
+        <option value="GBP" name="GBP">GBP</option>
+        <option value="EUR" name="eur">EUR</option>
+
+        <option value="AUD" name="AUD">AUD</option>
+        <option value="BGN" name="BGN">BGN</option>
+        <option value="BRL" name="BRL">BRL</option>
+        <option value="CAD" name="CAD">CAD</option>
+        <option value="CHF" name="CHF">CHF</option>
+        <option value="CNY" name="CNY">CNY</option>
+        <option value="CZK" name="CZK">CZK</option>
+        <option value="DKK" name="DKK">DKK</option>
+
+        <option value="HKD" name="HKD">HKD</option>
+        <option value="HRK" name="HRK">HRK</option>
+        <option value="HUF" name="HUF">HUF</option>
+        <option value="IDR" name="IDR">IDR</option>
+        <option value="ILS" name="ILS">ILS</option>
+        <option value="INR" name="INR">INR</option>
+        <option value="JPY" name="JPY">JPY</option>
+        <option value="KRW" name="KRW">KRW</option>
+
+
+        <option value="MXN" name="MXN">MXN</option>
+        <option value="MYR" name="MYR">MYR</option>
+        <option value="NOK" name="NOK">NOK</option>
+        <option value="NZD" name="NZD">NZD</option>
+        <option value="PHP" name="PHP">PHP</option>
+        <option value="RON" name="RON">RON</option>
+        <option value="RUB" name="RUB">RUB</option>
+        <option value="SEK" name="SEK">SEK</option>
+
+        <option value="SGD" name="SGD">SGD</option>
+        <option value="THB" name="THB">THB</option>
+        <option value="TRY" name="TRY">TRY</option>
+        <option value="ZAR" name="ZAR">ZAR</option>
+    </select>
+    <input class="liczba" type="number">
+    <br>
+    i Przelicz na:
+    <select class="wybor" name="ex2" id="ex2">
+        <option value="USD" name="usd">USD</option>
+        <option value="PLN" name="pln">PLN</option>
+        <option value="GBP" name="gbp">GBP</option>
+        <option value="EUR" name="eur">EUR</option>
+
+        <option value="AUD" name="AUD">AUD</option>
+        <option value="BGN" name="BGN">BGN</option>
+        <option value="BRL" name="BRL">BRL</option>
+        <option value="CAD" name="CAD">CAD</option>
+        <option value="CHF" name="CHF">CHF</option>
+        <option value="CNY" name="CNY">CNY</option>
+        <option value="CZK" name="CZK">CZK</option>
+        <option value="DKK" name="DKK">DKK</option>
+
+        <option value="HKD" name="HKD">HKD</option>
+        <option value="HRK" name="HRK">HRK</option>
+        <option value="HUF" name="HUF">HUF</option>
+        <option value="IDR" name="IDR">IDR</option>
+        <option value="ILS" name="ILS">ILS</option>
+        <option value="INR" name="INR">INR</option>
+        <option value="JPY" name="JPY">JPY</option>
+        <option value="KRW" name="KRW">KRW</option>
+
+        <option value="MXN" name="MXN">MXN</option>
+        <option value="MYR" name="MYR">MYR</option>
+        <option value="NOK" name="NOK">NOK</option>
+        <option value="NZD" name="NZD">NZD</option>
+        <option value="PHP" name="PHP">PHP</option>
+        <option value="RON" name="RON">RON</option>
+        <option value="RUB" name="RUB">RUB</option>
+        <option value="SEK" name="SEK">SEK</option>
+
+        <option value="SGD" name="SGD">SGD</option>
+        <option value="THB" name="THB">THB</option>
+        <option value="TRY" name="TRY">TRY</option>
+        <option value="ZAR" name="ZAR">ZAR</option>
+    </select><br>
+    <div class="one"></div>
+</form>
+<div class="wynik"></div>
+<br>
+<hr>
+<br>
+<div class="box">
+    <div class="smallBox">
+    <div class="day0"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day1"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day2"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day3"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day4"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day5"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day6"></div>
+    </div>
+    <div class="smallBox">
+    <div class="day7"></div>
+    </div>
+    <div class="smallBox">
+</div>
+</div>
+    <br>
+    <br>
+    <div id="chartContainer" style="height: 300px; width: 50%;"></div>
+<script type="text/javascript" src="canvasjs-1.9.8/canvasjs.min.js"></script>
+</body>
+</html>
