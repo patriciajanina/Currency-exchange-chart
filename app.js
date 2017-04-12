@@ -10,7 +10,7 @@ $(function () {
             type: 'GET',
             dataType: 'JSON',
             success: function (cos) {
-
+//if select1 exist and is not equal select2 give me a today's exchanging rate and and multiply by number put up.
                 if (select1 && select1 !== select2) {
                     $('.one').text(cos.rates[select2])
                     $('.wynik').text($('.liczba').val() * (cos.rates[select2]));
@@ -22,15 +22,15 @@ $(function () {
 
             }
         })
+        //Loop has been done in order to avoid a repetition code
+        //var j=-1 helps me to go into success function , code doesn't work without var j.
         var j = -1;
         for (var i = 0; i <= 7; i++) {
 
-
+//a loop is getting in a days ,then goes to ajax url - getting data for every each day
             var day = (moment().subtract(i, 'days').format('YYYY-MM-DD'))
 
-
             //******************************************************DAY0
-
             $.ajax({
                 url: 'http://api.fixer.io/' + day + '?base=' + select1,
                 type: 'GET',
@@ -39,18 +39,14 @@ $(function () {
                     j++
                     var day = (moment().subtract(j, 'days').format('YYYY-MM-DD'))
 
-
                     var days = '.day' + j;
-
-
                     var klasy = '.g' + j;
-
                     var klasa = 'g' + j;
 
-
+//round to third digit after the decimal point
                     var rateToFloor = (rata.rates[select2])
                     var floorRate = rateToFloor.toFixed(3)
-
+//changing the height of columns to avoid a value difference / a height is depend of value.
                     if (rata.rates[select2] < 5) {
                         var styles = {
                             height: rata.rates[select2] * 10 + '%',
@@ -58,11 +54,11 @@ $(function () {
                         }
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                     }
@@ -73,11 +69,11 @@ $(function () {
                         }
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -90,11 +86,11 @@ $(function () {
 
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -106,11 +102,11 @@ $(function () {
                         }
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -122,11 +118,11 @@ $(function () {
                         }
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -139,11 +135,11 @@ $(function () {
 
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -155,11 +151,11 @@ $(function () {
                         }
                         if ($(klasy)) {
                             $(klasy).remove()
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
                         else {
-                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong>' + floorRate + "</p>");
+                            $(days).append("<p class=" + klasa + ">" + day + ' ' + '<strong class="textValue">' + floorRate + "</p>");
                             $('.smallBox').css(styles)
                         }
 
@@ -170,10 +166,11 @@ $(function () {
         }
 
 
-// ***************************************************************next champ
+// ***************************************************************next chart/canvas.js
 
         function getRates(gfgf) {
-
+//the code is based on canvas.js , has been modified to up data days by ajax
+//to make code works and avoid a repetition I had to close all in one function , then return a value and new tab , updata a last 12 months
             $.ajax({
                 url: 'http://api.fixer.io/' + gfgf + '?base=' + $('#ex').val(),
                 type: 'GET',
@@ -203,9 +200,9 @@ $(function () {
 
         var chart = new CanvasJS.Chart("chartContainer",
             {
-                theme: "powiedz",
+                theme: "NOTHING",
                 title: {
-                    text: "montly checking"
+                    text: "MONTLY CHECKING"
                 },
                 animationEnabled: true,
                 axisX: {

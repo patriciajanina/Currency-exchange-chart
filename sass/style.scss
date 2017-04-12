@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('opensans-light-webfont.eot');
+  src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('opensans-light-webfont.woff2') format('woff2'),
+  url('opensans-light-webfont.woff') format('woff'),
+  url('opensans-light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+  font-size: 15px;
+  font-family: 'open_sanslight';
+}
+
 .box{
   width: 400px;
   height: 300px;
@@ -25,4 +41,106 @@ margin-top: -60px;
   background: white;
   font-size: 13px;
 }
+.chartBox{
+  display: flex;
+  flex-direction: column;
+}
+.chartsPosition{
+  display: flex;
+  justify-content: space-around;
+  background:white;
+  width: 1155px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.chart2Text{
+  text-align: center;
+}
+.calculator{
+  width: 150px;
+  height: 200px;
+  border: 1px solid silver;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: silver;
+}
+.liczba{
+  width: 100px;
+}
+.exchangePosition{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.exchangeForms{
+  border: 1px solid silver;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: silver;
+}
+option{
+  font-size: 20px;
+}
+.wybor{
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  border:2px solid silver;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
 
+}
+.wynik , .one{
+  border: 1px solid silver;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  overflow: hidden;
+  background: white;
+}
+.go{
+  position: relative;
+  margin: 0 auto;
+  background: indianred;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  border-style: none;
+}
+.chart2Text{
+  font-size: 13px;
+  color: #595959;
+}
+.textValue{
+  color:#595959;
+}
+section{
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cornerText{
+  width: 600px;
+  height: 200px;
+  font-size: 20px;
+}
+.pointText{
+  width: 1100px;
+  position: relative;
+  margin: 0 auto;
+  color: #595959;
+  font-size: 12px;
+}
