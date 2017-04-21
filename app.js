@@ -187,7 +187,7 @@ $(function () {
 
         function printRates() {
             var tab = [];
-            for (var i =0; i < 12; i++) {
+            for (var i = 0; i < 12; i++) {
                 tab.push({
                     x: new Date(moment().subtract(i, 'months').format('YYYY-MM-DD')),
                     y: getRates((moment().subtract(i, 'months').format('YYYY-MM-DD')))
@@ -228,4 +228,70 @@ $(function () {
         chart.render();
 
     })
+    //mortgage advisor advert
+    $('.formWrap').delay(4000).fadeIn(400)
+//inputs label on click display on
+    $('.formLabel').on('click', function () {
+        $(this).prev().css('visibility', 'visible')
+    })
+//close a advert
+    $('.noThanks').on('click', function () {
+        $('.formWrap').fadeOut(0)
+    })
+    //business news -ajax-updating the newest BBC & BUSINESS INSIDER news
+    // 83a1e31dab93479e94c7aa1a992df14e
+    $.ajax({
+        url: 'https://newsapi.org/v1/articles?source=business-insider&sortBy=top&apiKey=83a1e31dab93479e94c7aa1a992df14e',
+        type: 'GET',
+        dataType: 'JSON',
+        success: function (news) {
+            for (var i = 0; i < 4; i++) {
+                $('.topNews').append('<div class="topNewsChild"><div class="topNewsTitle">' + news.articles[i].title + '<div class="topNewsDes">' + news.articles[i].description + '<a href=' + news.articles[i].url + '><img class="topNewsPic" src=' + news.articles[i].urlToImage + '></a></div></div></div>');
+
+            }
+
+        }
+
+    })
+    $.ajax({
+        url: 'https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=83a1e31dab93479e94c7aa1a992df14e',
+        type: 'GET',
+        dataType: 'JSON',
+        success: function (news2) {
+
+            for (var i = 0; i < 9; i++) {
+                $('.sideNews').append('<div class="sideNewsChild"><div class="sideNewsTitle">' + news2.articles[i].title + '<div class="sideNewsDes">' + news2.articles[i].description + '<a href=' + news2.articles[i].url + '><img class="sideNewsPic" src=' + news2.articles[i].urlToImage + '></a></div></div></div>');
+
+            }
+
+        }
+    })
+
+    $.ajax({
+        url: 'https://newsapi.org/v1/articles?source=business-insider&sortBy=top&apiKey=83a1e31dab93479e94c7aa1a992df14e',
+        type: 'GET',
+        dataType: 'JSON',
+        success: function (news3) {
+            for (var i = 4; i < 10; i++) {
+                $('.middleNews').append('<div class="topNewsChild3"><div class="topNewsTitle3">' + news3.articles[i].title + '<div class="topNewsDes3">' + news3.articles[i].description + '<a href=' + news3.articles[i].url + '><img class="topNewsPic3" src=' + news3.articles[i].urlToImage + '></a></div></div></div>');
+
+            }
+
+        }
+
+    })
+    //header buttons
+    $('.headerNews').on('click', function () {
+        $('.newsWrap').fadeIn(0, function () {
+            console.log('say')
+        })
+    })
+
+    $('.headerExchanged').on('click', function () {
+        $('.newsWrap').fadeOut(0, function () {
+        })
+    })
 })
+
+
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -9,12 +9,14 @@
     <title>Title</title>
 </head>
 <body>
+<span class="mainPage">
 <header>
     <div class="header">
         <ul class="headerList">
-            <li>NEWS</li>
-            <li>MORTGAGE</li>
-            <li>MARKET</li>
+            <div class="outsideLi"><button>EXCHANGED</button></div>
+            <div class="outsideLi headerNews"><button>NEWS</button></div>
+            <div class="outsideLi"><button>MORTGAGE</button></div>
+            <div class="outsideLi"><button>MARKET</button></div>
         </ul>
     </div>
 </header>
@@ -24,7 +26,7 @@
     <div class="exchangeForms">
     <form action="">
         FROM: <br>
-        <select class="wybor"  name="ex" id="ex">
+        <select class="wybor" name="ex" id="ex">
 
             <option value="PLN" name="PLN">PLN</option>
             <option value="USD" name="USD">USD</option>
@@ -119,14 +121,14 @@
 </div>
 <div class="cornerText">
 <h1>How are your investments going?</h1>
-    <h3>Check the currency with us and be sure of tomorrow.</h3>
+    <h3>Check the currency with us.</h3>
 </div>
 </div>
 
 <br>
 <div class="pointText"><h5>*SELECT THE CURRENCY TO SEE LAST WEEK/MONTH VALUE . </h5></div>
 </section>
-<!--..............................................-->
+    <!--..............................................-->
 <div class="chartsPosition">
     <div class="chartBox">
     <div class="box">
@@ -160,7 +162,11 @@
     </div>
         <br>
         <br>
-        <div id="chartContainer" style="height: 250px; width: 50%;"></div>
+    <div id="chartContainer" style="height: 250px; width: 50%;"><div class="pngPos">
+        <img src='./chartimg5.png' height="80px">
+        <img class="chartPNG" src="./chartimg.png" height="200px">
+        <img src="./chartimg4.png" height="80px">
+    </div></div>
 </div>
 <script type="text/javascript" src="canvasjs-1.9.8/canvasjs.min.js"></script>
 <footer>
@@ -181,5 +187,64 @@
         </ul>
     </div>
 </footer>
+</span>
+<!--//form-->
+<div class="formWrap">
+    <form class="form1" action="app.php" method="post">
+        <h1>Did you find your <br>dream home yet ?</h1>
+        <h5>We are the team of best mortgage advisers.<br>Contact us and we will help you<br> make a right decision.
+        </h5><br>
+        <label class="labelName">NAME</label>
+        <input class='formLabel' type="text" name="name" placeholder="NAME">
+        <label class="labelName">SURNAME</label>
+        <input class='formLabel' type="text" name="surname" placeholder="SURNAME">
+        <label class="labelName">E:MAIL</label>
+        <input class='formLabel' type="email" name="email" placeholder="E:MAIL">
+        <label class="labelName">TEXT</label>
+        <textarea class="textForm" name="text" placeholder="How can we help you?"></textarea>
+        <!--<textarea class='formLabel' name="text"></textarea>-->
+
+        <button class="sendMessage" type="submit">Send</button>
+        <span class="noThanks"><div>No,Thank you.</div></span>
+    </form>
+</div>
+<!--................................news-->
+<div class="newsWrap">
+    <div class="header">
+        <ul class="headerList">
+            <div class="outsideLi headerExchanged">
+                <button>EXCHANGED</button>
+            </div>
+            <div class="outsideLi headerNews">
+                <button>NEWS</button>
+            </div>
+            <div class="outsideLi">
+                <button>MORTGAGE</button>
+            </div>
+            <div class="outsideLi">
+                <button>MARKET</button>
+            </div>
+        </ul>
+    </div>
+    <div class="head">
+        <div class="headText">What's new today?</div>
+    </div>
+    <div class="branchName">
+        <div class="businessInsider">BUSINESS INSIDER NEWS</div>
+        <div class="bbc">BBC NEWS</div>
+    </div>
+    <div class="newsBox">
+        <div class="leftSide">
+            <div class="topNews"></div>
+            <div class="middleNews"></div>
+        </div>
+        <div class="sideNews"></div>
+    </div>
+    <div class="newsFooter">
+        <div>Daily news with BBC & BUSINESS INSIDER</div>
+        <div>Copy rights 2017</div>
+    </div>
+
+</div>
 </body>
 </html>
