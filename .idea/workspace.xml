@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2311fd-2c5b-4b23-949a-ccc3e9bd9ce0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/business.jpg" afterPath="$PROJECT_DIR$/img/business.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/chartimg.png" afterPath="$PROJECT_DIR$/img/chartimg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/chartimg2.png" afterPath="$PROJECT_DIR$/img/chartimg2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/chartimg3.png" afterPath="$PROJECT_DIR$/img/chartimg3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/chartimg4.png" afterPath="$PROJECT_DIR$/img/chartimg4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/chartimg5.png" afterPath="$PROJECT_DIR$/img/chartimg5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home.jpg" afterPath="$PROJECT_DIR$/img/home.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/market.jpg" afterPath="$PROJECT_DIR$/img/market.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mortgage.jpg" afterPath="$PROJECT_DIR$/img/mortgage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nav.png" afterPath="$PROJECT_DIR$/img/nav.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/news.jpg" afterPath="$PROJECT_DIR$/img/news.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -303,7 +313,7 @@
       <workItem from="1519720210275" duration="775000" />
       <workItem from="1520249908366" duration="70891000" />
       <workItem from="1520843298554" duration="639000" />
-      <workItem from="1520863141328" duration="830000" />
+      <workItem from="1520863141328" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="mortgage-calculator&amp;&amp;market">
       <created>1520843449623</created>
@@ -340,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520863783780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajax https">
+      <created>1520864301575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520864301575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199500000" />
+    <option name="totallyTimeSpent" value="199813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1382" height="797" extended-state="0" />
