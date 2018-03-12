@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff2311fd-2c5b-4b23-949a-ccc3e9bd9ce0" name="Default" comment="mortgage-calculator&amp;&amp;market">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f8f830b6a5bfe44f9feeb284ebef86ca4a93e840/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f8f830b6a5bfe44f9feeb284ebef86ca4a93e840/style.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/market.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mortgage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mortgage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style.css.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/business.jpg" afterPath="$PROJECT_DIR$/img/business.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chartimg.png" afterPath="$PROJECT_DIR$/img/chartimg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chartimg2.png" afterPath="$PROJECT_DIR$/img/chartimg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chartimg3.png" afterPath="$PROJECT_DIR$/img/chartimg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chartimg4.png" afterPath="$PROJECT_DIR$/img/chartimg4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chartimg5.png" afterPath="$PROJECT_DIR$/img/chartimg5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home.jpg" afterPath="$PROJECT_DIR$/img/home.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/news.jpg" afterPath="$PROJECT_DIR$/img/news.jpg" />
+    <list default="true" id="ff2311fd-2c5b-4b23-949a-ccc3e9bd9ce0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvasjs-1.9.8/canvasjs.min.js" afterPath="$PROJECT_DIR$/canvasjs-1.9.8/canvasjs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvasjs-1.9.8/jquery.canvasjs.min.js" afterPath="$PROJECT_DIR$/canvasjs-1.9.8/jquery.canvasjs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -55,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5535">
-              <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
+            <state relative-caret-position="2670">
+              <caret line="178" column="27" lean-forward="false" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -89,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -161,12 +133,12 @@
         <option value="$PROJECT_DIR$/canvasjs-1.9.8/jquery.canvasjs.min.js" />
         <option value="$PROJECT_DIR$/canvasjs-1.9.8/canvasjs.min.js" />
         <option value="$PROJECT_DIR$/sass/_media.scss" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/market.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/mortgage.html" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -197,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +180,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,27 +302,37 @@
       <workItem from="1492104070504" duration="4254000" />
       <workItem from="1519720210275" duration="775000" />
       <workItem from="1520249908366" duration="70891000" />
-      <workItem from="1520843298554" duration="98000" />
+      <workItem from="1520843298554" duration="639000" />
+      <workItem from="1520863141328" duration="140000" />
     </task>
+    <task id="LOCAL-00001" summary="mortgage-calculator&amp;&amp;market">
+      <created>1520843449623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520843449623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198129000" />
+    <option name="totallyTimeSpent" value="198810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1382" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24674384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24674384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -436,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,15 +703,7 @@
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5535">
-          <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -751,6 +720,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="27" lean-forward="false" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
           <folding />
         </state>
       </provider>

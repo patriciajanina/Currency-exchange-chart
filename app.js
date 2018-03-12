@@ -12,7 +12,7 @@ $(function () {
 
 
         $.ajax({
-            url: 'http://api.fixer.io/latest?base=' + select1,
+            url: 'https://api.fixer.io/latest?base=' + select1,
             type: 'GET',
             dataType: 'JSON',
             success: function (res) {
@@ -37,7 +37,7 @@ $(function () {
 
             //******************************************************DAY0
             $.ajax({
-                url: 'http://api.fixer.io/' + day + '?base=' + select1,
+                url: 'https://api.fixer.io/' + day + '?base=' + select1,
                 type: 'GET',
                 dataType: 'JSON',
                 success: function (rata) {
@@ -176,7 +176,7 @@ $(function () {
 //it has been modified to up data days by ajax
 //to make code works and avoid a repetition I had to close all in one function , then return a value and new tab , updata a last 12 months
             $.ajax({
-                url: 'http://api.fixer.io/' + res + '?base=' + $('#tab-one').val(),
+                url: 'https://api.fixer.io/' + res + '?base=' + $('#tab-one').val(),
                 type: 'GET',
                 async: false,
                 dataType: 'JSON',
