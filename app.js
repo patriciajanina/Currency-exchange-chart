@@ -10,7 +10,6 @@ $(function () {
         var select1 = $('#tab-one').val();
         var select2 = $('#tab-two').val();
 
-
         $.ajax({
             url: 'https://api.fixer.io/latest?base=' + select1,
             type: 'GET',
