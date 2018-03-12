@@ -1,181 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://momentjs.com/downloads/moment.js"></script>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Check the currency</title>
 </head>
 <body>
-<span class="mainPage">
 <header>
     <div class="header">
+        <div class="toggle"><img src="./img/nav.png" width="40px" height="40px"></div>
         <ul class="headerList">
-            <div class="outsideLi"><button>EXCHANGED</button></div>
-            <div class="outsideLi headerNews"><button>NEWS</button></div>
-            <div class="outsideLi"><button>MORTGAGE</button></div>
-            <div class="outsideLi"><button>MARKET</button></div>
+            <li class="nav-link"><a href="index.html">exchanged</a></li>
+            <li class="nav-link"><a href="news.html">news</a></li>
+            <li class="nav-link"><a href="mortgage.html">mortgage</a></li>
+            <li class="nav-link"><a href="market.html">market</a></li>
+        </ul>
+    </div>
+    <div class="header2">
+        <ul class="headerList2">
+            <li class="nav-link"><a href="index.html">exchanged</a></li>
+            <li class="nav-link"><a href="news.html">news</a></li>
+            <li class="nav-link"><a href="mortgage.html">mortgage</a></li>
+            <li class="nav-link"><a href="market.html">market</a></li>
         </ul>
     </div>
 </header>
 <section>
-<div class="sectionBox">
-<div class="exchangePosition">
-    <div class="exchangeForms">
-    <form action="">
-        FROM: <br>
-        <select class="wybor" name="ex" id="ex">
+    <div class="section-one">
+        <div class="exchangePosition">
+            <div class="exchangeForms">
+                <form>
+                    FROM: <br>
+                    <select class="exchange-checking" id="tab-one">
 
-            <option value="PLN" name="PLN">PLN</option>
-            <option value="USD" name="USD">USD</option>
-            <option value="GBP" name="GBP">GBP</option>
-            <option value="EUR" name="eur">EUR</option>
+                        <option value="PLN">PLN</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
 
-            <option value="AUD" name="AUD">AUD</option>
-            <option value="BGN" name="BGN">BGN</option>
-            <option value="BRL" name="BRL">BRL</option>
-            <option value="CAD" name="CAD">CAD</option>
-            <option value="CHF" name="CHF">CHF</option>
-            <option value="CNY" name="CNY">CNY</option>
-            <option value="CZK" name="CZK">CZK</option>
-            <option value="DKK" name="DKK">DKK</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BGN">BGN</option>
+                        <option value="BRL">BRL</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="CZK">CZK</option>
+                        <option value="DKK">DKK</option>
 
-            <option value="HKD" name="HKD">HKD</option>
-            <option value="HRK" name="HRK">HRK</option>
-            <option value="HUF" name="HUF">HUF</option>
-            <option value="IDR" name="IDR">IDR</option>
-            <option value="ILS" name="ILS">ILS</option>
-            <option value="INR" name="INR">INR</option>
-            <option value="JPY" name="JPY">JPY</option>
-            <option value="KRW" name="KRW">KRW</option>
+                        <option value="HKD">HKD</option>
+                        <option value="HRK">HRK</option>
+                        <option value="HUF">HUF</option>
+                        <option value="IDR">IDR</option>
+                        <option value="ILS">ILS</option>
+                        <option value="INR">INR</option>
+                        <option value="JPY">JPY</option>
+                        <option value="KRW">KRW</option>
 
 
-            <option value="MXN" name="MXN">MXN</option>
-            <option value="MYR" name="MYR">MYR</option>
-            <option value="NOK" name="NOK">NOK</option>
-            <option value="NZD" name="NZD">NZD</option>
-            <option value="PHP" name="PHP">PHP</option>
-            <option value="RON" name="RON">RON</option>
-            <option value="RUB" name="RUB">RUB</option>
-            <option value="SEK" name="SEK">SEK</option>
+                        <option value="MXN">MXN</option>
+                        <option value="MYR">MYR</option>
+                        <option value="NOK">NOK</option>
+                        <option value="NZD">NZD</option>
+                        <option value="PHP">PHP</option>
+                        <option value="RON">RON</option>
+                        <option value="RUB">RUB</option>
+                        <option value="SEK">SEK</option>
 
-            <option value="SGD" name="SGD">SGD</option>
-            <option value="THB" name="THB">THB</option>
-            <option value="TRY" name="TRY">TRY</option>
-            <option value="ZAR" name="ZAR">ZAR</option>
-        </select>
+                        <option value="SGD">SGD</option>
+                        <option value="THB">THB</option>
+                        <option value="TRY">TRY</option>
+                        <option value="ZAR">ZAR</option>
+                    </select>
 
-        <br>
-        TO:<br>
-        <select class="wybor" name="ex2" id="ex2">
-            <option value="USD" name="usd">USD</option>
-            <option value="PLN" name="pln">PLN</option>
-            <option value="GBP" name="gbp">GBP</option>
-            <option value="EUR" name="eur">EUR</option>
+                    <br>
+                    TO:<br>
+                    <select class="exchange-checking" id="tab-two">
+                        <option value="USD">USD</option>
+                        <option value="PLN">PLN</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
 
-            <option value="AUD" name="AUD">AUD</option>
-            <option value="BGN" name="BGN">BGN</option>
-            <option value="BRL" name="BRL">BRL</option>
-            <option value="CAD" name="CAD">CAD</option>
-            <option value="CHF" name="CHF">CHF</option>
-            <option value="CNY" name="CNY">CNY</option>
-            <option value="CZK" name="CZK">CZK</option>
-            <option value="DKK" name="DKK">DKK</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BGN">BGN</option>
+                        <option value="BRL">BRL</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="CZK">CZK</option>
+                        <option value="DKK">DKK</option>
 
-            <option value="HKD" name="HKD">HKD</option>
-            <option value="HRK" name="HRK">HRK</option>
-            <option value="HUF" name="HUF">HUF</option>
-            <option value="IDR" name="IDR">IDR</option>
-            <option value="ILS" name="ILS">ILS</option>
-            <option value="INR" name="INR">INR</option>
-            <option value="JPY" name="JPY">JPY</option>
-            <option value="KRW" name="KRW">KRW</option>
+                        <option value="HKD">HKD</option>
+                        <option value="HRK">HRK</option>
+                        <option value="HUF">HUF</option>
+                        <option value="IDR">IDR</option>
+                        <option value="ILS">ILS</option>
+                        <option value="INR">INR</option>
+                        <option value="JPY">JPY</option>
+                        <option value="KRW">KRW</option>
 
-            <option value="MXN" name="MXN">MXN</option>
-            <option value="MYR" name="MYR">MYR</option>
-            <option value="NOK" name="NOK">NOK</option>
-            <option value="NZD" name="NZD">NZD</option>
-            <option value="PHP" name="PHP">PHP</option>
-            <option value="RON" name="RON">RON</option>
-            <option value="RUB" name="RUB">RUB</option>
-            <option value="SEK" name="SEK">SEK</option>
+                        <option value="MXN">MXN</option>
+                        <option value="MYR">MYR</option>
+                        <option value="NOK">NOK</option>
+                        <option value="NZD">NZD</option>
+                        <option value="PHP">PHP</option>
+                        <option value="RON">RON</option>
+                        <option value="RUB">RUB</option>
+                        <option value="SEK">SEK</option>
 
-            <option value="SGD" name="SGD">SGD</option>
-            <option value="THB" name="THB">THB</option>
-            <option value="TRY" name="TRY">TRY</option>
-            <option value="ZAR" name="ZAR">ZAR</option>
-        </select><br>
-        RATE<br>
-        <div class="one"></div>
-    </form>
+                        <option value="SGD">SGD</option>
+                        <option value="THB">THB</option>
+                        <option value="TRY">TRY</option>
+                        <option value="ZAR">ZAR</option>
+                    </select><br>
+                    RATE<br>
+                    <div class="output"></div>
+                </form>
+            </div>
+            <div class="calculator">
+                <div class="textCalculator">enter amount</div>
+                <input class="calculator-amount" type="number" placeholder="AMOUNT">
+                <div class="exchange-checking">
+                    <button class="go"> go</button>
+                </div>
+                SUM <br>
+                <div class="calculator-sum">0</div>
+            </div>
+        </div>
+        <div class="cornerText">
+            <h2>How are your investments going?</h2>
+            <h1>Check the currency with us.</h1>
+        </div>
     </div>
-    <div class="calculator">
-        <div class="textCalculator">ENTER AMOUNT</div>
-        <input class="liczba" type="number" placeholder="AMOUNT">
-        <div class="wybor"><button class="go"> GO</button></div>
-        SUM <br>
-        <div class="wynik">0</div>
-    </div>
-</div>
-<div class="cornerText">
-<h1>How are your investments going?</h1>
-    <h3>Check the currency with us.</h3>
-</div>
-</div>
 
-<br>
-<div class="pointText"><h5>*SELECT THE CURRENCY TO SEE LAST WEEK/MONTH VALUE . </h5></div>
+    <br>
+    <div class="pointText"><h5>*select the currency to see last week/month value.</h5></div>
 </section>
-    <!--..............................................-->
+<!--..............................................-->
 <div class="chartsPosition">
     <div class="chartBox">
-    <div class="box">
-        <div class="smallBox">
-        <div class="day0"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day1"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day2"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day3"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day4"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day5"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day6"></div>
-        </div>
-        <div class="smallBox">
-        <div class="day7"></div>
-        </div>
+        <div class="box">
+            <div class="smallBox">
+                <div class="day0"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day1"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day2"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day3"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day4"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day5"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day6"></div>
+            </div>
+            <div class="smallBox">
+                <div class="day7"></div>
+            </div>
 
+        </div>
+        <div class="chart-two-text">last week value</div>
     </div>
-        <div class="chart2Text">LAST WEEK VALUE</div>
+    <br>
+    <br>
+
+    <div id="chartContainer">
+        <div class="pngPos">
+            <img class="chart-small-img" src='img/chartimg5.png' alt="exchange money">
+            <img class="chart-large-img" src="img/chartimg.png" alt="business">
+            <img class="chart-small-img" src="img/chartimg4.png" alt="money">
+        </div>
     </div>
-        <br>
-        <br>
-    <div id="chartContainer" style="height: 250px; width: 50%;"><div class="pngPos">
-        <img src='./chartimg5.png' height="80px">
-        <img class="chartPNG" src="./chartimg.png" height="200px">
-        <img src="./chartimg4.png" height="80px">
-    </div></div>
+
 </div>
-<script type="text/javascript" src="canvasjs-1.9.8/canvasjs.min.js"></script>
+<div class="chartContainer-brake"></div>
+
 <footer>
     <div class="footerBoxes">
         <div class="footerBox1">
-            <a>In finance, the benefit from investment is called a return. The return may consist of capital gain or investment income, including dividends, interest, rental income etc., or a combination of the two. The projected economic return is the appropriately discounted value of the future returns. The historic return comprises the actual capital gain (or loss) or income (or both) over a period of time.</a>
+            <a>In finance, the benefit from investment is called a return. The return may consist of capital gain or
+                investment income, including dividends, interest, rental income etc., or a combination of the two. The
+                projected economic return is the appropriately discounted value of the future returns. The historic
+                return comprises the actual capital gain (or loss) or income (or both) over a period of time.</a>
         </div>
         <div class="footerBox2">
-            <a>An investor may bear a risk of loss of some or all of their capital invested, whereas in saving (such as in a bank deposit) the risk of loss in nominal value is normally remote. (Note that if the currency of a savings account differs from the account holder's home currency, then there is the risk that the exchange rate between the two currencies will move unfavorably, so that the value in the account holder's home currency of the savings account decreases.)</a>
+            <a>An investor may bear a risk of loss of some or all of their capital invested, whereas in saving (such as
+                in a bank deposit) the risk of loss in nominal value is normally remote. (Note that if the currency of a
+                savings account differs from the account holder's home currency, then there is the risk that the
+                exchange rate between the two currencies will move unfavorably, so that the value in the account
+                holder's home currency of the savings account decreases.)</a>
         </div>
     </div>
     <div class="IconLine">
@@ -187,10 +209,9 @@
         </ul>
     </div>
 </footer>
-</span>
 <!--//form-->
 <div class="formWrap">
-    <form class="form1" action="app.php" method="post">
+    <form class="form1" method="post">
         <h1>Did you find your <br>dream home yet ?</h1>
         <h5>We are the team of best mortgage advisers.<br>Contact us and we will help you<br> make a right decision.
         </h5><br>
@@ -205,46 +226,13 @@
         <!--<textarea class='formLabel' name="text"></textarea>-->
 
         <button class="sendMessage" type="submit">Send</button>
-        <span class="noThanks"><div>No,Thank you.</div></span>
+        <div class="noThanks"><span>No,Thank you.</span></div>
     </form>
 </div>
-<!--................................news-->
-<div class="newsWrap">
-    <div class="header">
-        <ul class="headerList">
-            <div class="outsideLi headerExchanged">
-                <button>EXCHANGED</button>
-            </div>
-            <div class="outsideLi headerNews">
-                <button>NEWS</button>
-            </div>
-            <div class="outsideLi">
-                <button>MORTGAGE</button>
-            </div>
-            <div class="outsideLi">
-                <button>MARKET</button>
-            </div>
-        </ul>
-    </div>
-    <div class="head">
-        <div class="headText">What's new today?</div>
-    </div>
-    <div class="branchName">
-        <div class="businessInsider">BUSINESS INSIDER NEWS</div>
-        <div class="bbc">BBC NEWS</div>
-    </div>
-    <div class="newsBox">
-        <div class="leftSide">
-            <div class="topNews"></div>
-            <div class="middleNews"></div>
-        </div>
-        <div class="sideNews"></div>
-    </div>
-    <div class="newsFooter">
-        <div>Daily news with BBC & BUSINESS INSIDER</div>
-        <div>Copy rights 2017</div>
-    </div>
 
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="canvasjs-1.9.8/canvasjs.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
